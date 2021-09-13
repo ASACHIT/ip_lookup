@@ -7,11 +7,17 @@
 ```bash
   git clone https://github.com/ASACHIT/ip_lookup.git
   cd ip_lookup
-  python3 code.py
+  python3 ip-look.py
+  #or
+  python3 ip-lookup-geo.py #for more detail.
 ```
     
 ## Screenshot
-![App Screenshot](image.png)
+### ip-lookup.py
+![App Screenshot](img/iplook.png)
+
+### ip-lookup-geo.py
+![App Screenshot](img/geo.png)
 
 
 
