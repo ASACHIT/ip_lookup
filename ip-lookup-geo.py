@@ -18,11 +18,10 @@ class whois:
         print(f"{Fore.LIGHTGREEN_EX}Hit Enter Key':'Your ipadd' or input someone's ip")
         self.ipadd = (input(Fore.WHITE + "Input IP ~# ")).strip()
 
-        if self.ipadd.startswith("127") or self.ipadd.startswith("192.168"):
+        if self.ipadd.startswith("127") or self.ipadd.startswith("192"):
             print(
-                f"{Fore.RED} The Input Address is  local host"
-                if self.ipadd.startswith("127")
-                else "This Are Not Valid Ip Address :("
+                f"{Fore.RED} The Input Address is  local host",
+                f"\n{Fore.RED} This is not Valid IP Address",
             )
             exit()
 
